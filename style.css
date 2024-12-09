@@ -1,0 +1,148 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    background-color:black;
+    color:6A1E55;
+}
+
+.hero{
+    background-image:url(WhatsApp\ Image\ 2024-11-12\ at\ 14.06.09\ \(4\).jpeg);
+    background-size: cover;
+    background-position: center;
+    color:black;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.hero h1{
+    font-size:2.5rem;
+    margin-bottom:10px;
+}
+
+.hero p{
+    font-size:1.3rem;
+    margin-bottom: 20px;
+}
+
+.hbutton{
+    background-color:#ff4081;
+    color:black;
+    padding:15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.hbutton:hover{
+ background-color:black;
+ color:white;
+}
+
+.showcase{
+     padding:60px 20px;
+     text-align: center;
+     background-color: rgb(64, 49, 78);
+    border-radius: 10px;
+}
+
+.showcase h2{
+    font-size:2.5rem;
+    margin-bottom:40px;
+    color:blueviolet;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.item-grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+
+.item img{
+    width:100%;
+    border-radius: 10px;
+}
+
+.item h3{
+    font-size:1.5rem;
+    margin-top:15px;
+    color:blueviolet;
+}
+
+.item p{
+    font-size:1.2rem;
+    color:blueviolet;
+}
+
+.features{
+    display:flex;
+    justify-content: space-around;
+    padding:60px 20px;
+    background-color:black;
+    border-radius: 10px;
+}
+
+.feature{
+    text-align:center;
+    max-width: 300px;
+}
+
+.feature h3{
+    font-size: 1rem;
+    color:blueviolet;
+    font-size:xx-large
+}
+
+.feature p{
+    font-size: 1rem;
+    color:blueviolet;
+}
+
+.last{
+    text-align: center;
+    padding:50px 20px;
+    background-color: black;
+    color:blueviolet;
+}
+
+.last h2{
+    font-size:2.2rem;
+    margin-bottom:20px;
+}
+
+.lbutton{
+    background-color:#ff4081;
+    color:black;
+    padding:15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.lbutton:hover{
+    background-color:black;
+    color:white;
+   }
+
+
+footer{
+    text-align: center;
+    padding:20px;
+    background-color:black;
+    color:blueviolet;
+    font-size:1rem;
+}
